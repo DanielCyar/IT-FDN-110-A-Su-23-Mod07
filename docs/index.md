@@ -146,6 +146,7 @@ while True:
     loaded_users = Process.load_data(file_name)
     IO.display_data(loaded_users)
 ```
+
 ## Running the script in Windows Command Line
 Figure 1 shows the program running on PyCharm.
 
