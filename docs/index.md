@@ -13,7 +13,7 @@ In the programming context, pickling refers to the serialization of complex data
 
 Table 1 shows some ‘selected binary file access modes’ that can be used while pickling, straight from the course textbook (M. Dawson, Python® Programming for the Absolute Beginner, 3rd Edition, 2010).
 
-[IMAGE HERE]  
+[Exception types](docs/exception1.png "Exception types")
 *Table 1. Binary File Access Modes. (M. Dawson, 2010)*
 
 Meanwhile, table 2 us the selected pickle functions that we can use to either write to the binary file or read from it. (M. Dawson, Python® Programming for the Absolute Beginner, 3rd Edition, 2010).
@@ -25,7 +25,7 @@ Meanwhile, table 2 us the selected pickle functions that we can use to either wr
 Exception handling enhances code's reliability, making it more robust and user-friendly. Its fundamental aspect is to ensure that the code can deal with unexpected situations effectively. Basically, the process consists of placing risky code within a try block, and if an exception arises, Python searches for a corresponding except block that can handle that specific exception. This way, one can also provide customized responses for different types of errors. Exception handling acts as a safety net, allowing the program to handle errors without crashing. (Python Exceptions: An Introduction, https://realpython.com/python-exceptions, 2018) (External Link).
 I’ve already explored this concept on previous assignments, when learning about error handling and applying it to the script. For example, when creating the ToDo list, I used try/except to verify if there was a .txt file to read data. I did this while thinking, if a user wants to start writing to a file and there’s no file to begin with, then the code will not run, as it encounters an error just at the start line. This time, I’m placing the referred table from the textbook to have some idea of the most common exception types.
 
-[Exception types](docs/exception1.png "Exception types")
+[IMAGE HERE]
 *Table 3. Selected Exception Types. (M. Dawson, 2010)*
 
 However, for a bigger list, the following webpage provides the exception hierarchy:
