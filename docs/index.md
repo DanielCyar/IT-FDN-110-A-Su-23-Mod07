@@ -1,8 +1,8 @@
-Daniel Castro
-August 22nd, 2023
-IT FDN 110 A Su 23: Foundations Of Programming: Python
-Assignment 07
-https://github.com/DanielCyar/IT-FDN-110-A-Su-23-Mod07
+Daniel Castro  
+August 22nd, 2023  
+IT FDN 110 A Su 23: Foundations Of Programming: Python  
+Assignment 07  
+https://github.com/DanielCyar/IT-FDN-110-A-Su-23-Mod07  
 
 # Pickling and Exception Handling
 ## Introduction
