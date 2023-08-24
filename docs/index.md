@@ -13,7 +13,7 @@ In the programming context, pickling refers to the serialization of complex data
 
 Table 1 shows some ‘selected binary file access modes’ that can be used while pickling, straight from the course textbook (M. Dawson, Python® Programming for the Absolute Beginner, 3rd Edition, 2010).
 
-[Exception types](./docs/exception1.png "Exception types")
+[Exception types](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/exception1.png "Exception types")
 *Table 1. Binary File Access Modes. (M. Dawson, 2010)*
 
 Meanwhile, table 2 us the selected pickle functions that we can use to either write to the binary file or read from it. (M. Dawson, Python® Programming for the Absolute Beginner, 3rd Edition, 2010).
