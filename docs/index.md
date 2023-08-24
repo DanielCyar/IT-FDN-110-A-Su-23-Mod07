@@ -13,19 +13,19 @@ In the programming context, pickling refers to the serialization of complex data
 
 Table 1 shows some ‘selected binary file access modes’ that can be used while pickling, straight from the course textbook (M. Dawson, Python® Programming for the Absolute Beginner, 3rd Edition, 2010).
 
-[Exception types](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/exception1.png "Exception types")  
+[Pickle Modes](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/pickling1.png "Pickle Modes")  
 *Table 1. Binary File Access Modes. (M. Dawson, 2010)*
 
 Meanwhile, table 2 us the selected pickle functions that we can use to either write to the binary file or read from it. (M. Dawson, Python® Programming for the Absolute Beginner, 3rd Edition, 2010).
 
-[IMAGE HERE]  
+[Pickle Functions](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/pickling2.png "Pickle Functions")  
 *Table 2. Selected Pickle Functions. (M. Dawson, 2010)*
 
 ## Exception Handling
 Exception handling enhances code's reliability, making it more robust and user-friendly. Its fundamental aspect is to ensure that the code can deal with unexpected situations effectively. Basically, the process consists of placing risky code within a try block, and if an exception arises, Python searches for a corresponding except block that can handle that specific exception. This way, one can also provide customized responses for different types of errors. Exception handling acts as a safety net, allowing the program to handle errors without crashing. (Python Exceptions: An Introduction, https://realpython.com/python-exceptions, 2018) (External Link).
 I’ve already explored this concept on previous assignments, when learning about error handling and applying it to the script. For example, when creating the ToDo list, I used try/except to verify if there was a .txt file to read data. I did this while thinking, if a user wants to start writing to a file and there’s no file to begin with, then the code will not run, as it encounters an error just at the start line. This time, I’m placing the referred table from the textbook to have some idea of the most common exception types.
 
-[IMAGE HERE]
+[Exception types](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/exception1.png "Exception types")  
 *Table 3. Selected Exception Types. (M. Dawson, 2010)*
 
 However, for a bigger list, the following webpage provides the exception hierarchy:
@@ -149,18 +149,18 @@ while True:
 ## Running the script in Windows Command Line
 Figure 1 shows the program running on PyCharm.
 
-[IMAGE HERE]  
+[PyCharm](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/pycharm1.png "PyCharm")  
 *Figure 1. Assignment07.py running with PyCharm.*
 
 ##Running the script in Windows Command Line
 To run the script from the Windows Command Line, it’s just accessing the directory where the 'Assignment07.py' file is saved and type the name of the Python file. The script will start running (Figure 2).
 
-[IMAGE HERE]  
+[Command Line](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/wincomm1.png "Command Line")  
 Figure 2. Assignment07.py running in Windows Command Line.
 
 Once we press Option 5 and then press Enter, the code stops running. Figure 3 displays how the data was saved inside the UserData.dat file.
 
-[IMAGE HERE]  
+[UserData.dat](https://danielcyar.github.io/IT-FDN-110-A-Su-23-Mod07/wincomm2.png "UserData.dat")  
 Figure 3. UserData.dat file with the saved data.
 
 ## Summary
